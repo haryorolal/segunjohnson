@@ -202,6 +202,10 @@ h4 {
 	margin-top: 250px;
 }
 
+.product1 h1, .panel{
+    margin-top: 80px;
+}
+
 @media screen and (min-width:360px) and (max-width:640px){
     
     .product1{
@@ -504,6 +508,15 @@ h4 {
     padding-left: 4px;
 	transition: 0.3s;
 	}
+    
+    .tabcontent {
+    width: 100%;
+    display: none;
+    padding: 0 50px 0 50px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: 2px !important;
+}
     
     .tablinks >h5{
         font-size: 8px !important;
